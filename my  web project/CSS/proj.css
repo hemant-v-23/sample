@@ -1,0 +1,101 @@
+/*body{
+	/*display: flex;
+	height: 100vh;
+	background-image: linear-gradient(to right, rgb(215, 211, 213), rgb(18, 211, 213));
+	opacity: 0.;
+}*/
+#logo{
+	height: auto;
+	width: 300px;
+	} 
+#title{
+	text-align: center;
+	font-variant: small-caps;
+	width: 100%;
+	padding: 10px;
+	background-color: #C0C0C0;
+	position: fixed;
+	height: auto;
+}
+#sub{
+	font-variant: small-caps;
+	padding: 10px;
+	margin: 2px;
+}
+#para{
+	width: 50%;
+	height: 200px;
+	color: #ffffff;
+	border-radius: 10px;
+	background-image: url(https://cdn.pixabay.com/photo/2020/03/23/20/02/virus-4961932_960_720.jpg);
+	padding: 30px 30px 30px 30px;
+  	overflow: auto;
+}
+#link{
+	width: 10px;
+	height: 5px;
+	padding: 2px;
+	color: red;
+	text-decoration: none;
+}
+.social{
+	text-decoration: none;
+}
+#link:hover{
+	background-color: #000000;
+	border-radius: 5px;
+}
+h4{
+	color: #008000;
+}
+.image{
+	height: auto;
+	width: 60%;
+	border-radius: 10px;
+	border-color: #000000;
+}
+.para1{
+	font-variant: small-caps;
+}
+i{
+	align-content: center;
+	width: 10%;
+}
+i:hover{
+	opacity: .6;
+}
+footer{
+	background-color: #6495ED;
+	height: 100px;
+	width: 100%;
+	padding: 10px;
+	font-variant: small-caps;
+}
+nav ul{
+	list-style:none;
+	background-color:#5F9EA0;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+nav li{
+	width: 15%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 120%;
+	display: inline-block;
+}
+nav > ul >li{
+	text-align: center;
+}
+nav li ul{
+	position: absolute;
+	display: none;
+	width: inherit;
+}
+nav li:hover ul{
+	display: block;
+}
+nav li ul li{
+	display: block;
+}
